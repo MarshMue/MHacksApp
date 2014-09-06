@@ -75,6 +75,40 @@ public class MainActivity extends Activity {
                 name = JavaStringArrayTest.getRandVow().toUpperCase() + JavaStringArrayTest.getRandCons()
                      + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandVow() + " 1";
                 break;
+            case 2:
+                name = JavaStringArrayTest.getRandCons().toUpperCase() + JavaStringArrayTest.getRandVow()
+                     + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandCons();
+            case 3:
+                name = JavaStringArrayTest.getRandCons().toUpperCase() + JavaStringArrayTest.getRandVow()
+                     + JavaStringArrayTest.getRandCons();
+            case 4:
+                name = JavaStringArrayTest.getRandVow().toUpperCase() + JavaStringArrayTest.getRandCons()
+                     + JavaStringArrayTest.getRandVow();
+            case 5:
+                name = JavaStringArrayTest.getRandCons().toUpperCase() + JavaStringArrayTest.getRandVow()
+                     + JavaStringArrayTest.getRandVow();
+            case 6:
+                name = JavaStringArrayTest.getRandVow().toUpperCase() + JavaStringArrayTest.getRandCons()
+                     + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandVow()
+                     + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandCons();
+            case 7:
+                name = JavaStringArrayTest.getRandVow().toUpperCase() + JavaStringArrayTest.getRandCons()
+                     + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons()
+                     + JavaStringArrayTest.getRandCons();
+            case 8:
+                name = JavaStringArrayTest.getRandCons().toUpperCase() + JavaStringArrayTest.getRandVow()
+                     + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons()
+                     + JavaStringArrayTest.getRandCons();
+            case 9:
+                name = JavaStringArrayTest.getRandVow().toUpperCase() + JavaStringArrayTest.getRandCons()
+                     + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandVow()
+                     + JavaStringArrayTest.getRandCons();
+            case 10:
+                name = JavaStringArrayTest.getRandCons().toUpperCase() + JavaStringArrayTest.getRandVow()
+                     + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons()
+                     + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons()
+                     + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons();
+
         }
         mGeneratedName.setText(name);
     }
