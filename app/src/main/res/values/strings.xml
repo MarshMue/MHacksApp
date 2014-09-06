@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">MHacksApp</string>
-    <string name="prompt">Generate your name:</string>
+    <string name="app_name">Fictional Name Generator</string>
+    <string name="prompt">Begin your quest:</string>
     <string name="nameGen">Generate!</string>
     <string name="action_settings">Settings</string>
 
