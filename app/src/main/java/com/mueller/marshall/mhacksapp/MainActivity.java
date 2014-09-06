@@ -4,59 +4,66 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 
 public class MainActivity extends Activity {
 
-    public class JavaStringArrayTest {
-        private String[] mconsonants = new String[20];
+    //CONSTANTS
+    private final int NUM_OF_NAME_ALGS = 1;
 
-        void populateStringArray() {
-            mconsonants[0] = "b";
-            mconsonants[1] = "c";
-            mconsonants[2] = "d";
-            mconsonants[3] = "f";
-            mconsonants[4] = "g";
-            mconsonants[5] = "h";
-            mconsonants[6] = "j";
-            mconsonants[7] = "k";
-            mconsonants[8] = "l";
-            mconsonants[9] = "m";
-            mconsonants[10] = "n";
-            mconsonants[11] = "o";
-            mconsonants[12] = "q";
-            mconsonants[13] = "r";
-            mconsonants[14] = "s";
-            mconsonants[15] = "t";
-            mconsonants[16] = "v";
-            mconsonants[17] = "w";
-            mconsonants[18] = "x";
-            mconsonants[19] = "z";
+    public static class JavaStringArrayTest {
+        private static String[] mConsonants = new String[] {
+            "b",
+            "c",
+            "d",
+            "f",
+            "g",
+            "h",
+            "j",
+            "k",
+            "l",
+            "m",
+            "n",
+            "o",
+            "q",
+            "r",
+            "s",
+            "t",
+            "v",
+            "w",
+            "x",
+            "z"};
+        private static String getRandCons() {
+            return mConsonants[(int) (Math.random() * 20)];
         }
-        private String getRandCons() {
-            return mconsonants[(int) (Math.random() * 20)];
-        }
-    }
-
-        public class JavaStringArrayTestTwo {
-            private String[] mvowels = new String[6];
-
-            void populateStringArray() {
-                mvowels[0] = "a";
-                mvowels[1] = "e";
-                mvowels[2] = "i";
-                mvowels[3] = "o";
-                mvowels[4] = "u";
-                mvowels[5] = "y";
-            }
-            public String getRandVow() {
+        //define vowels
+        private static String[] mvowels = new String[] {
+                "a",
+                "e",
+                "i",
+                "o",
+                "u",
+                "y"};
+            private static String getRandVow() {
                 return mvowels[(int) (Math.random() * 6)];
             }
         }
 
+    private void generateName() { //this is where the name gets created
+        mGeneratedName = (TextView) findViewById(R.id.randName);
+        String name = new String();
+        //int index = (int) Math.random() * NUM_OF_NAME_ALGS; // this is for the future when
+        //if (index = 1){                       // more options of name generation are ready
+        //index number correlates to which name algorithm is used
+        name = JavaStringArrayTest.getRandCons() +JavaStringArrayTest.getRandVow();
+        mGeneratedName.setText(name); //set the name to the TextView
+        //  }
+    }
         private TextView mGeneratedName;
-
+        private Button mGenerateButton;
 
 
         @Override
@@ -64,14 +71,15 @@ public class MainActivity extends Activity {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);
 
-            private void generateName() {
-                String name = new String();
-                int index = (int) Math.random() * 10;
-                if (index = 1){
-                    name = JavaStringArrayTest.getRand
+            mGenerateButton = (Button)findViewById(R.id.buttonGenerate);
+            mGenerateButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    generateName();
                 }
-            }
-        }
+            });
+
+    }
 
 
         @Override
