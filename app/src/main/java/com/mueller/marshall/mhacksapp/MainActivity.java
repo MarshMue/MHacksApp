@@ -11,8 +11,11 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
-    //CONSTANTS
-    private final int NUM_OF_NAME_ALGS = 1;
+    //data
+    private final int NUM_OF_NAME_ALGS = 2;
+    private int index;
+    private TextView mGeneratedName;
+    private Button mGenerateButton;
 
     public static class JavaStringArrayTest {
         private static String[] mConsonants = new String[] {
@@ -55,15 +58,20 @@ public class MainActivity extends Activity {
     private void generateName() { //this is where the name gets created
         mGeneratedName = (TextView) findViewById(R.id.randName);
         String name = new String();
-        //int index = (int) Math.random() * NUM_OF_NAME_ALGS; // this is for the future when
-        //if (index = 1){                       // more options of name generation are ready
+        if (index == 0){
         //index number correlates to which name algorithm is used
-        name = JavaStringArrayTest.getRandCons() +JavaStringArrayTest.getRandVow();
-        mGeneratedName.setText(name); //set the name to the TextView
-        //  }
+            //including index numbers for debug purposes
+        name = JavaStringArrayTest.getRandCons().toUpperCase() + JavaStringArrayTest.getRandVow()
+        + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandCons()
+        + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons() + " 0";
+         //set the name to the TextView
+        } else if (index == 1) { //there's a better way of doing this, but I cant remember atm
+            name = JavaStringArrayTest.getRandVow().toUpperCase() + JavaStringArrayTest.getRandCons()
+                    + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandVow() + " 1";
+        }
+        mGeneratedName.setText(name);
     }
-        private TextView mGeneratedName;
-        private Button mGenerateButton;
+
 
 
         @Override
@@ -76,6 +84,7 @@ public class MainActivity extends Activity {
                 @Override
                 public void onClick(View view) {
                     generateName();
+                    index = (int) (Math.random() * NUM_OF_NAME_ALGS);
                 }
             });
 
