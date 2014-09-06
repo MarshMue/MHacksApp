@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Fictional Name Generator</string>
-    <string name="prompt">Begin your quest:</string>
-    <string name="nameGen">Generate!</string>
+    <string name="app_name">Name Creator</string>
+    <string name="prompt">Begin your story:</string>
+    <string name="nameGen">Create!</string>
     <string name="action_settings">Settings</string>
+    <string name="app_label">NameCreate</string>
 
 </resources>
