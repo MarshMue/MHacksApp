@@ -4,7 +4,7 @@
     <string name="app_name">Name Creator</string>
     <string name="prompt">Begin your story:</string>
     <string name="nameGen">Create!</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Info (Coming soon!)</string>
     <string name="app_label">NameCreate</string>
 
 </resources>
