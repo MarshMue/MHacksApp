@@ -69,105 +69,105 @@ public class MainActivity extends Activity {
                 //set the name to the TextView
                 name = JavaStringArrayTest.getRandCons().toUpperCase() + JavaStringArrayTest.getRandVow()
                     + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandCons()
-                    + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons() + " 0";
+                    + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons(); // + " 0";
                 break;
             case 1:
                 name = JavaStringArrayTest.getRandVow().toUpperCase() + JavaStringArrayTest.getRandCons()
-                     + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandVow() + " 1";
+                     + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandVow(); // + " 1";
                 break;
             case 2:
                 name = JavaStringArrayTest.getRandCons().toUpperCase() + JavaStringArrayTest.getRandVow()
-                     + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandCons() + " 2";
+                     + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandCons(); // + " 2";
                 break;
             case 3:
                 name = JavaStringArrayTest.getRandCons().toUpperCase() + JavaStringArrayTest.getRandVow()
-                     + JavaStringArrayTest.getRandCons() + " 3";
+                     + JavaStringArrayTest.getRandCons(); // + " 3";
                 break;
             case 4:
                 name = JavaStringArrayTest.getRandVow().toUpperCase() + JavaStringArrayTest.getRandCons()
-                     + JavaStringArrayTest.getRandVow() + " 4";
+                     + JavaStringArrayTest.getRandVow(); // + " 4";
                 break;
             case 5:
                 name = JavaStringArrayTest.getRandCons().toUpperCase() + JavaStringArrayTest.getRandVow()
-                     + JavaStringArrayTest.getRandVow() + " 5";
+                     + JavaStringArrayTest.getRandVow(); // + " 5";
                 break;
             case 6:
                 name = JavaStringArrayTest.getRandVow().toUpperCase() + JavaStringArrayTest.getRandCons()
                      + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandVow()
-                     + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandCons() + " 6";
+                     + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandCons(); // + " 6";
                 break;
             case 7:
                 name = JavaStringArrayTest.getRandVow().toUpperCase() + JavaStringArrayTest.getRandCons()
                      + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons()
-                     + JavaStringArrayTest.getRandCons() + " 7";
+                     + JavaStringArrayTest.getRandCons(); // + " 7";
                 break;
             case 8:
                 name = JavaStringArrayTest.getRandCons().toUpperCase() + JavaStringArrayTest.getRandVow()
                      + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons()
-                     + JavaStringArrayTest.getRandCons() + " 8";
+                     + JavaStringArrayTest.getRandCons(); // + " 8";
                 break;
             case 9:
                 name = JavaStringArrayTest.getRandVow().toUpperCase() + JavaStringArrayTest.getRandCons()
                      + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandVow()
-                     + JavaStringArrayTest.getRandCons() + " 9";
+                     + JavaStringArrayTest.getRandCons(); // + " 9";
                 break;
             case 10:
                 name = JavaStringArrayTest.getRandCons().toUpperCase() + JavaStringArrayTest.getRandVow()
                      + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons()
                      + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons()
-                     + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons() + " 10";
+                     + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons(); // + " 10";
                 break;
             case 11:
                 name = JavaStringArrayTest.getRandCons().toUpperCase() + JavaStringArrayTest.getRandVow()
                      + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandVow()
                      + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandVow()
-                     + JavaStringArrayTest.getRandCons() + " 11";
+                     + JavaStringArrayTest.getRandCons(); // + " 11";
                 break;
             case 12:
                 name = JavaStringArrayTest.getRandVow().toUpperCase() + JavaStringArrayTest.getRandCons()
                      + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons()
-                     + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons() + " 12";
+                     + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons(); // + " 12";
                 break;
             case 13:
                 name = JavaStringArrayTest.getRandCons().toUpperCase() + JavaStringArrayTest.getRandVow()
-                     + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons() + " 13";
+                     + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons(); // + " 13";
                 break;
             case 14:
                 name = JavaStringArrayTest.getRandCons().toUpperCase() + JavaStringArrayTest.getRandVow()
                      + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandCons()
                      + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons()
-                     + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandVow() + " 14";
+                     + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandVow(); // + " 14";
                 break;
             case 15:
                 name = JavaStringArrayTest.getRandCons().toUpperCase() + JavaStringArrayTest.getRandVow()
                         + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandCons()
                         + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons()
-                        + JavaStringArrayTest.getRandCons() + " 15";
+                        + JavaStringArrayTest.getRandCons(); // + " 15";
                 break;
             case 16:
                 name = JavaStringArrayTest.getRandVow().toUpperCase() + JavaStringArrayTest.getRandCons()
                      + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons()
                      + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons()
-                     + JavaStringArrayTest.getRandCons() + " 16";
+                     + JavaStringArrayTest.getRandCons(); // + " 16";
                 break;
             case 17:
                 name = JavaStringArrayTest.getRandCons().toUpperCase() + JavaStringArrayTest.getRandVow()
                      + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandCons()
-                     + JavaStringArrayTest.getRandVow() + " 17";
+                     + JavaStringArrayTest.getRandVow(); // + " 17";
                 break;
             case 18:
                 name = JavaStringArrayTest.getRandCons().toUpperCase() + JavaStringArrayTest.getRandVow()
                      + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandVow()
                      + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandCons()
                      + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandVow()
-                     + JavaStringArrayTest.getRandCons() + " 18";
+                     + JavaStringArrayTest.getRandCons(); // + " 18";
                 break;
             case 19:
                 name = JavaStringArrayTest.getRandCons().toUpperCase() + JavaStringArrayTest.getRandVow()
                      + JavaStringArrayTest.getRandCons() + JavaStringArrayTest.getRandCons()
                      + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandCons()
                      + JavaStringArrayTest.getRandVow() + JavaStringArrayTest.getRandVow()
-                     +JavaStringArrayTest.getRandCons() + " 19";
+                     +JavaStringArrayTest.getRandCons(); // + " 19";
                 break;
         }
         mGeneratedName.setText(name);
