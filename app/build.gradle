@@ -1,25 +1,35 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        apksign {
+            keyAlias 'apkstore'
+            keyPassword 'StangFan302'
+            storeFile file('C:/Users/System User/.AndroidStudioBeta/system/stat/apkstore/apkstore.jks')
+            storePassword 'StangFan302'
+        }
+    }
     compileSdkVersion 20
-    buildToolsVersion "20.0.0"
-
+    buildToolsVersion '20.0.0'
     defaultConfig {
-        applicationId "com.mueller.marshall.mhacksapp"
+        applicationId 'com.mueller.marshall.mhacksapp'
         minSdkVersion 15
         targetSdkVersion 20
         versionCode 1
-        versionName "1.0"
+        versionName '1.0'
     }
     buildTypes {
         release {
             runProguard true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            zipAlign true
         }
+    }
+    productFlavors {
     }
 }
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.google.android.gms:play-services:5.+'
+    compile 'com.google.android.gms:play-services:5.0.89'
 }
